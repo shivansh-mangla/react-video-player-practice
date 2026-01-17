@@ -1,0 +1,41 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app h1{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.app main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    background-color: tan;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.player-wrapper{
+    background-color: aliceblue;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem tomato solid;
+    gap: 0.3rem;
+
+    width: 100%;
+    min-width: 0;
+}
+
+.player-wrapper-2{
+    width: 100%;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
